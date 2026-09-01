@@ -1,20 +1,19 @@
 ---
-title: "Great coffee with a conscience"
-subtitle: Support sustainable farming while enjoying a cup
-image: /img/home-jumbotron.jpg
+title: "Wellness After 40"
+subtitle: Simple, practical health tips for steady energy and better blood sugar
+image: /img/hero-banner.jpg
 blurb:
-    heading: Why Kaldi?
-    text: "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities."
+    heading: Why Wellness After 40?
+    text: "After 40, your body changes — energy dips, blood sugar gets trickier to manage, sleep gets lighter, and generic health advice stops working the way it used to. Wellness After 40 breaks down practical, judgment-free tips for nutrition, movement, sleep, and hormone health, written specifically for this stage of life."
 intro:
-    heading: "What we offer"
-    text: "Kaldi is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it. We take coffee production, roasting and brewing seriously and we’re glad to pass that knowledge to anyone."
+    heading: "What you'll find here"
+    text: "From simple blood sugar-friendly meal ideas to realistic movement and sleep habits, every post here is written to fit into a real, busy life — no extreme diets, no all-or-nothing fitness plans, just small changes that actually stick."
 products:
-    - image: img/illustrations-coffee.svg
-      text: "We sell green and roasted coffee beans that are sourced directly from independent farmers and farm cooperatives. We’re proud to offer a variety of coffee beans grown with great care for the environment and local communities. Check our post or contact us directly for current availability."
+    - image: /img/illustrations-coffee.svg
+      text: "Nutrition & blood sugar tips you can use today: simple swaps, meal ideas, and habits that help keep your energy steady throughout the day."
     - image: /img/illustrations-coffee-gear.svg
-      text: "We offer a small, but carefully curated selection of brewing gear and tools for every taste and experience level. No matter if you roast your own beans or just bought your first french press, you’ll find a gadget to fall in love with in our shop."
+      text: "Movement, sleep, and hormone health guidance built for real life after 40 — practical, sustainable, and never preachy."
 values:
-    heading: Our values
-    text: Coffee is an amazing part of human culture but it has a dark side too – one of colonialism and mindless abuse of natural resources and human lives. We want to turn this around and return the coffee trade to the drink’s exhilarating, empowering and unifying nature.
+    heading: Our approach
+    text: We believe the healthiest habits are the ones you can actually keep. No fads, no shame — just clear, realistic guidance for feeling stronger, more energized, and more like yourself.
 ---
-
