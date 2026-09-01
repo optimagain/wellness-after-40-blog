@@ -1,45 +1,35 @@
 ---
-title: "Values"
+title: "Our Approach"
 image: /img/about-jumbotron.jpg
 values:
-  - heading: "Shade-grown coffee"
+  - heading: "Small, sustainable changes"
     text: >
-      Coffee is a small tree or shrub that grows in the forest
-      understory in its wild form, and traditionally was grown
-      commercially under other trees that provided shade. The
-      forest-like structure of shade coffee farms provides habitat for
-      a great number of migratory and resident species.
-    imageUrl: "/img/about-shade-grown.jpg"
-  - heading: "Single origin"
+      We don't believe in extreme diets or all-or-nothing fitness
+      challenges. The habits that actually stick after 40 are small,
+      realistic changes you can keep up for years, not weeks.
+    imageUrl: "/img/hero-banner.jpg"
+  - heading: "Backed by real information"
     text: >
-      Single-origin coffee is coffee grown within a single known
-      geographic origin. Sometimes, this is a single farm or a
-      specific collection of beans from a single country. The name of
-      the coffee is then usually the place it was grown to whatever
-      degree available.
-    imageUrl: "/img/about-single-origin.jpg"
-  - heading: "Sustainable farming"
+      Every article draws on established nutrition, fitness, and health
+      guidance. We link to real sources and avoid trendy claims that
+      don't hold up.
+    imageUrl: "/img/hero-banner.jpg"
+  - heading: "Made for this stage of life"
     text: >
-      Sustainable agriculture is farming in sustainable ways based on
-      an understanding of ecosystem services, the study of
-      relationships between organisms and their environment. What
-      grows where and how it is grown are a matter of choice and
-      careful consideration for nature and communities.
-    imageUrl: "/img/about-sustainable-farming.jpg"
-  - heading: "Direct sourcing"
+      Your body changes after 40 — metabolism, hormones, sleep, energy.
+      We write specifically for that reality instead of recycling
+      generic 20-something wellness advice.
+    imageUrl: "/img/hero-banner.jpg"
+  - heading: "Practical, not preachy"
     text: >
-      We want to truly empower the communities that bring amazing
-      coffee to you. That’s why we reinvest 20% of our profits into
-      farms, local businesses and schools everywhere our coffee is
-      grown. You can see the communities grow and learn more about
-      coffee farming on our blog.
-    imageUrl: "/img/about-direct-sourcing.jpg"
-  - heading: "Reinvest profits"
+      No shame, no guilt trips. Just clear, judgment-free guidance you can
+      actually use today, whether that's a five-minute read or a simple
+      recipe swap.
+    imageUrl: "/img/hero-banner.jpg"
+  - heading: "Built with your feedback"
     text: >
-      We want to truly empower the communities that bring amazing
-      coffee to you. That’s why we reinvest 20% of our profits into
-      farms, local businesses and schools everywhere our coffee is
-      grown. You can see the communities grow and learn more about
-      coffee farming on our blog.
-    imageUrl: "/img/about-reinvest-profits.jpg"
+      This community grew from readers across Facebook, Instagram, and
+      our newsletter. Your questions and feedback directly shape what we
+      write about next.
+    imageUrl: "/img/hero-banner.jpg"
 ---
