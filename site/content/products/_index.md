@@ -29,5 +29,4 @@ intro:
         Hormones & Mental Wellness — clear, judgment-free information on
         the hormonal and emotional shifts that come with this stage of
         life, and how to feel more like yourself again.
-full_image: /img/hero-banner.jpg
 ---
