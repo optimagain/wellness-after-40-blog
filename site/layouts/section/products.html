@@ -24,7 +24,7 @@
 </div>
 
 <!-- Full-width image -->
-<img src="{{ .Params.full_image }}" alt="" class="db w-100">
+{{ with .Params.full_image }}<img src="{{ . }}" alt="" class="db w-100">{{ end }}
 
 {{ partial "table" .Params.pricing }}
 
