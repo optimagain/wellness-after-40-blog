@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://wellness-after-40.netlify.app/"
 languageCode = "en-us"
 languageLang = "en"
 title = "Wellness After 40"
