@@ -81,6 +81,27 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Heading, name: heading, widget: string}
               - {label: Text, name: text, widget: text}
               - {label: Image, name: imageUrl, widget: image}
+  - name: "legal"
+    label: "Legal Pages"
+    files:
+      - file: "site/content/privacy/_index.md"
+        label: "Privacy Policy"
+        name: "privacy"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown}
+      - file: "site/content/disclaimer/_index.md"
+        label: "Health & Wellness Disclaimer"
+        name: "disclaimer"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown}
+      - file: "site/content/affiliate-disclosure/_index.md"
+        label: "Affiliate Disclosure"
+        name: "affiliate-disclosure"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown}
   - name: "site_settings"
     label: "Site Settings"
     files:
