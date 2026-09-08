@@ -3,7 +3,7 @@ title: "5 Simple Ways to Keep Your Blood Sugar Steady After 40"
 date: 2026-09-01T09:00:00-00:00
 category: "Nutrition"
 description: "Small, realistic changes to your meals and daily routine can make a real difference in how steady your blood sugar — and your energy — feels after 40."
-image: /img/hero-banner.jpg
+image: /img/steady-blood-sugar-after-40-hero.jpg
 ---
 
 If you've noticed your energy dipping harder in the afternoons, or cravings hitting differently than they used to, you're not imagining it. After 40, insulin sensitivity naturally starts to shift, which means your body doesn't manage blood sugar quite the same way it did in your 20s and 30s.
