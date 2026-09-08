@@ -1,51 +1,61 @@
 <head>
 
-  {{ if .IsHome }}
-  <title>{{ $.Site.Title }}{{ with .Params.subtitle }} — {{ . }}{{ end }}</title>
-  {{ else }}
-  <title>{{ .Title }} | {{ $.Site.Title }}</title>
-  {{ end }}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H7V12JCH4R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  {{ $pageDescription := .Description | default .Summary | default $.Site.Params.description }}
-  <meta name="description" content="{{ $pageDescription | plainify | truncate 160 }}">
+  gtag('config', 'G-H7V12JCH4R');
+</script>
 
-  {{ $stylesheet := .Site.Data.webpack.main }}
-  {{ with $stylesheet.css }}
-    <link href="{{ relURL . }}" rel="stylesheet">
-  {{ end }}
+{{ if .IsHome }}
+<title>{{ $.Site.Title }}{{ with .Params.subtitle }} — {{ . }}{{ end }}</title>
+{{ else }}
+<title>{{ .Title }} | {{ $.Site.Title }}</title>
+{{ end }}
 
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <base href="{{ $.Site.BaseURL }}">
+{{ $pageDescription := .Description | default .Summary | default $.Site.Params.description }}
+<meta name="description" content="{{ $pageDescription | plainify | truncate 160 }}">
 
-  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
+{{ $stylesheet := .Site.Data.webpack.main }}
+{{ with $stylesheet.css }}
+<link href="{{ relURL . }}" rel="stylesheet">
+{{ end }}
 
-  <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
-  <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="/manifest.json">
-  <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#ff4400">
-  <meta name="theme-color" content="#fff">
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<base href="{{ $.Site.BaseURL }}">
 
-  <!-- Open Graph Hugo https://gohugo.io/templates/internal/#open-graph -->
-  {{ template "_internal/opengraph.html" . }}
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
 
-  <!-- Twitter/X Card Hugo https://gohugo.io/templates/internal/#twitter-cards -->
-  {{ template "_internal/twitter_cards.html" . }}
+<!-- Favicons -->
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#ff4400">
+<meta name="theme-color" content="#fff">
 
-  {{ if .IsHome }}
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  {{ end }}
+<!-- Open Graph Hugo https://gohugo.io/templates/internal/#open-graph -->
+{{ template "_internal/opengraph.html" . }}
 
-  <!-- GetResponse Analytics -->
-  <script type="text/javascript">
+<!-- Twitter/X Card Hugo https://gohugo.io/templates/internal/#twitter-cards -->
+{{ template "_internal/twitter_cards.html" . }}
 
-  (function(m, o, n, t, e, r, _){
-          m['__GetResponseAnalyticsObject'] = e;m[e] = m[e] || function() {(m[e].q = m[e].q || []).push(arguments)};
-          r = o.createElement(n);_ = o.getElementsByTagName(n)[0];r.async = 1;r.src = t;r.setAttribute('crossorigin', 'use-credentials');_.parentNode .insertBefore(r, _);
-      })(window, document, 'script', 'https://an.gr-wcon.com/script/8fdac613-730c-4ae8-9735-ade28e2aea3a/ga.js', 'GrTracking');
-  </script>
-  <!-- End GetResponse Analytics -->
+{{ if .IsHome }}
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+{{ end }}
+
+<!-- GetResponse Analytics -->
+<script type="text/javascript">
+
+(function(m, o, n, t, e, r, _){
+m['__GetResponseAnalyticsObject'] = e;m[e] = m[e] || function() {(m[e].q = m[e].q || []).push(arguments)};
+r = o.createElement(n);_ = o.getElementsByTagName(n)[0];r.async = 1;r.src = t;r.setAttribute('crossorigin', 'use-credentials');_.parentNode .insertBefore(r, _);
+})(window, document, 'script', 'https://an.gr-wcon.com/script/8fdac613-730c-4ae8-9735-ade28e2aea3a/ga.js', 'GrTracking');
+</script>
+<!-- End GetResponse Analytics -->
 </head>
